@@ -21,3 +21,40 @@ Tasks
 2. create profile on github - https://github.com/
 3. Install Visual Studio
 4. diff b/w compilor and interpreter
+
+//25 06 
+
+3 Different way to embed JS
+1. inline JS
+2. Internal JS
+3. External JS
+
+
+inline css > internal css > external css
+
+
+Variables
+let , var , const 
+let latx = 10
+
+
+Datatypes in Js
+1. primitive Datatypes
+    string : eg "hello", 'hello', "20"
+    number : 1.2, 1000
+    boolean : true , false
+    undefined 
+    null
+
+
+2. non-primitive datatypes
+  object
+  array
+
+
+3. 1. Read About functions
+   2. vaiable scope 
+
+
+
+
