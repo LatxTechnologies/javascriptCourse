@@ -1,9 +1,8 @@
 let a =10;
-function check()
+console.log("outside function ", a);
+if(1)
 {
-    let b= 20;
-    
+    let a = 20; 
+    console.log("Inside Function ", a);  
 }
-console.log(a)
-check()
-console.log(b)
+console.log("after condition check ",a);

@@ -57,4 +57,45 @@ Datatypes in Js
 
 
 
+4. Operators 
+  1. Arithmetic Operators
+     +
+     -
+     *
+     /
+     %
+     ++  ---> increment by 1
+     --  ---> decrement by 1
 
+  2. Comparision Operators
+     output either true or false
+     ==      -->  not check for type 
+     ===     
+     !=
+     !==
+     >
+     <
+     >=
+     <=
+
+  3. Logical Operator 
+     &&  - and operator
+     ||  - Or operator
+     !   - not operator
+
+  4. Assignment Operator
+     =
+     +=
+     -=
+     *=
+     /=
+     %=   -- modulus
+
+  
+
+
+
+Task 
+1. Operatos 
+2. logical Operator
+3. precedence & Associativity in  operators 
