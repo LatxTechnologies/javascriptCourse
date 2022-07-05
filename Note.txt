@@ -1,0 +1,226 @@
+-- 21 - 06
+
+what is programming?
+what is JavaScript?
+javascript is the programming lanaguage for the web.
+
+
+use of JavaScript?
+intractive websites
+creating web and mobile apps
+framework : are collection of code libraries that provide developers with pre-written code.
+
+how to print statement using js?
+variables 
+datatypes
+
+
+
+Tasks
+1. git install in your system
+2. create profile on github - https://github.com/
+3. Install Visual Studio
+4. diff b/w compilor and interpreter
+
+//25 06 
+
+3 Different way to embed JS
+1. inline JS
+2. Internal JS
+3. External JS
+
+
+inline css > internal css > external css
+
+
+Variables
+let , var , const 
+let latx = 10
+
+
+Datatypes in Js
+1. primitive Datatypes
+    string : eg "hello", 'hello', "20"
+    number : 1.2, 1000
+    boolean : true , false
+    undefined 
+    null
+
+
+2. non-primitive datatypes
+  object
+  array
+
+
+3. 1. Read About functions
+   2. vaiable scope 
+
+
+
+4. Operators 
+  1. Arithmetic Operators
+     +
+     -
+     *
+     /
+     %
+     ++  ---> increment by 1
+     --  ---> decrement by 1
+
+  2. Comparision Operators
+     output either true or false
+     ==      -->  not check for type 
+     ===     
+     !=
+     !==
+     >
+     <
+     >=
+     <=
+
+  3. Logical Operator 
+     &&  - and operator
+     ||  - Or operator
+     !   - not operator
+
+  4. Assignment Operator
+     =
+     +=
+     -=
+     *=
+     /=
+     %=   -- modulus
+
+  
+
+
+
+Task 
+1. Operatos 
+2. logical Operator
+3. precedence & Associativity in  operators 
+
+
+
+literals
+
+// I am Lovereet i have 6 years of experience as senior developer
+
+let firstname = "Lovepreet";
+let job = "senior developer";
+let experience  = 6;
+
+// let statement = "I am " + firstname + " i have " + experience + " years of experience as "+ job;
+
+let statement  = `I am ${firstname} i have ${experience} years of experience as ${job}`;
+console.log(statement);
+
+
+
+
+
+Type Conversion & Type Coercion
+-, * ,/ ,% --> string to number
++ --> number to string
+console.log('10'-'4'-'3'-2+"5");
+
+
+5 flase in JS
+1. 0
+2. ''
+3. undefine
+4. null
+5. false
+6. NaN
+
+
+
+//function swap(c,d)
+
+const swap = (c,d) =>{
+    let  temp = c;
+    c=d;
+    d=temp;
+      console.log(`insdie a = ${c} and b = ${d}`);
+    
+}
+
+
+let a = 10;
+let b=20;
+
+console.log(`outside a = ${a} and b = ${b}`);
+swap(a,b);
+
+
+Introduction To Arrow
+
+let student1 = "Ajay"
+let student2 = "kajal"
+let setudent3 = "Mukul"
+
+let students = ["Ajay", "Mukul", "kajal", "neha", "Ashish"]
+
+
+
+Task 
+1. Methods in array
+
+push() - insert element at the end of the array
+unshift() - insert new element at beggining
+pop() - Remove last element
+shift() - remove first element
+indexOf(3) - if true return index else -1
+include(3) - if true then return true else false 
+
+
+concatenate 
+
+let arr1 = [1,2]
+undefined
+let arr2 = [3,4]
+undefined
+let arr3 = arr1 + arr2
+undefined
+arr3
+'1,23,4'
+let arr4 = arr1.concat(arr2)
+undefined
+arr4
+(4) [1, 2, 3, 4]
+
+
+object
+it same as a array but difference is that there is a key:value pair
+
+let student = {
+   name : "Joelin",
+   course : "Web Development",
+   Friends : ["Kajal","Mohit"]
+}
+
+array of object
+
+[
+   {
+      name : "Joelin",
+      course : "Web Development",
+      Friends : ["Kajal","Mohit"]
+   },
+   {
+      name : "Senchi",
+      course : "Web Designing",
+      Friends : ["Shivani","Rohit"]
+   },
+   {
+      name : "Mukul",
+      course : "C Programming",
+      Friends : ["Kajal"]
+   }
+]
+
+
+Refrence For Array 
+https://www.freecodecamp.org/news/how-to-create-an-array-in-javascript/
+
+
